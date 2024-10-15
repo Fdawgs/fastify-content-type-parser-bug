@@ -5,7 +5,7 @@ const fastify = require("fastify")({
 });
 
 fastify.addContentTypeParser(
-  "application/vnd.macroE",
+  "application/vnd.macroEnabled",
   { parseAs: "string" },
   async function (_req, payload) {
     return payload;
