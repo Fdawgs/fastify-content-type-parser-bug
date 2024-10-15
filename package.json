@@ -1,0 +1,15 @@
+{
+  "name": "fastify-content-type-parser-bug",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.0.0"
+  }
+}
